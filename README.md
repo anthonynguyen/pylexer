@@ -18,10 +18,10 @@ It *will* stop if it does not find a token at the beginning of the data it is lo
 	for token in lexer.scan("I was born on 01/01/1970", True):
 		print token
 
-`Lexer.__init__` takes two arguments: a list of tokens as tuples `("name", "regex")`, and any regex flags
-`Lexer.addTokens` takes a list of tokens as tuples `("name", "regex")`
-`Lexer.addFlags` takes any number of regex flags
-`Lexer.scan` is an iterator and takes two arguments: the string to scan, and whether or not to ignore whitespace (optional, disabled by default). It returns objects of the `Token` class.
+* `Lexer.__init__` takes two arguments: a list of tokens as tuples `("name", "regex")`, and any regex flags
+* `Lexer.addTokens` takes a list of tokens as tuples `("name", "regex")`
+* `Lexer.addFlags` takes any number of regex flags
+* `Lexer.scan` is an iterator and takes two arguments: the string to scan, and whether or not to ignore whitespace (optional, disabled by default). It returns objects of the `Token` class.
 
 The `Token` class is basically a variable container. It holds the following information:
 
