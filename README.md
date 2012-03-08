@@ -5,7 +5,7 @@
 ## About
 **By Anthony Nguyen**
 
-I was learning about string tokenization for NLP and I wrote this as a sort of application about the concepts I'm learning.
+I was learning about string tokenization for NLP and I wrote this as a sort of application of the concepts I'm learning.
 
 It *will* stop if it does not find a token at the beginning of the data it is looking at.
 
